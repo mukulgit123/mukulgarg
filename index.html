@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mukul Garg - CV</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./style.css">
 </head>
 <body>
     <div class="cv-container">
@@ -21,17 +21,19 @@
         <main class="content">
             <section class="about">
                 <h2>About Me</h2>
-                <p>I am a Platform Engineer with over 11 years of experience in building deployment frameworks using platform and cloud capabilities on AWS and Azure...</p>
+                <p>I am a Platform Engineer with over 11 years of experience in building deployment frameworks using platform and building cloud capabilities on AWS and Azure. I specialize in CI/CD solutions, infrastructure provisioning using Terraform, Crossplane, and Cloud CLI, and container orchestration with Docker and Kubernetes. Passionate about technology, I enjoy exploring cultural diversity and continuously learning new skills</p>
             </section>
             
             <section class="skills">
                 <h2>Skills & Tools</h2>
                 <ul>
-                    <li>Docker, Kubernetes, Terraform, Crossplane, Helm</li>
-                    <li>Jenkins, GitHub Actions, Azure DevOps</li>
-                    <li>Python, GoLang, Java, PowerShell</li>
+                    <li>Docker, Kubernetes, Crossplane, Helm, OpenShift, Terraform, Ansible, FluxCD, ArgoCD</li>
+                    <li>Jenkins, Github Actions, Spinnaker, Prisma Cloud, Checkpoint Cloudguard, Kong, Nginx</li>
+                    <li>Prometheus, Grafana, Open Search, Splunk, Datadog, Octopus, Azure DevOps, Harbor</li>
+                    <li>Python, GoLang, Java, C#, PowerShell, Shell Scripting</li>
                     <li>AWS, Azure, GCP</li>
-                    <li>Fluent in English, Beginner in Swedish</li>
+                    <li>Fluent in English (spoken and written)</li>
+                    <li>Beginner in Swedish (spoken and written)</li>
                 </ul>
             </section>
             
@@ -83,5 +85,10 @@
     </div>
     
     <button id="download" onclick="window.print()">Download CV as PDF</button>
+    <script>
+        document.getElementById('download').addEventListener('click', function() {
+            window.print();
+        });
+    </script>    
 </body>
 </html>
